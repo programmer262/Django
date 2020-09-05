@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+    background: black;
+}
+
+h1 {
+    background: linear-gradient(45deg, rgba(255, 166, 2, 0.767), red);
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+h1:hover {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(50deg, rgb(251, 255, 0), rgb(0, 128, 100));
+    border-radius: 20px;
+    transition: 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+
+ ::-webkit-scrollbar {
+    width: 30px;
+}
