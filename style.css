@@ -10,6 +10,17 @@ h1 {
     font-family: cursive;
     color: whitesmoke;
 text-align: center;
+ 
+}
+
+h1:hover {
+    background: none;
+}
+#achraf {
+font-size: 50px;
+color:white;
+text-align:center;
+    text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -23,18 +34,11 @@ text-align: center;
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
-
-h1:hover {
-    background: none;
-}
-#achraf {
-font-size: 50px;
-color:white;
-text-align:center;}
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(50deg, rgb(251, 255, 0), rgb(0, 128, 100));
     border-radius: 20px;
     transition: 1s;
+    
 }
 
 ::-webkit-scrollbar-thumb:hover {
