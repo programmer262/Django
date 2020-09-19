@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
     background: black;
 }
-
+iframe{height:auto;}
 h1 {
     background: linear-gradient(45deg, rgba(255, 166, 2, 0.767), red);
     text-align: center;
